@@ -27,25 +27,23 @@ public class JunitTest {
         assertThat(stringTestowy).isEqualTo("stringTestowy");
 
 
-    }
-@Tag("secend")
-@Test
-public void  secondTest (){
-        System.out.println(0.2 * 0.2);
-        double result = new BigDecimal("0.2").multiply(new BigDecimal("0.2")).doubleValue()
-        }
-}
 
-        @Nested
-        public class NestedTest {
+//@Tag("secend")
+//@Test
+//public void  secondTest (){
+        //System.out.println(0.2 * 0.2);
+       // double result = new BigDecimal("0.2").multiply(new BigDecimal("0.2")).doubleValue()
 
-            List<Integer> list1 = array.aslist(1,2,3,4,5);
+       // @Nested
+       // public class NestedTest {
+
+        //    List<Integer> list1 = array.aslist(1,2,3,4,5);
 
 
-            @Test
-            public void  firstNestedTest () {
+      //      @Test
+      //      public void  firstNestedTest () {
 
-            }
+
 
         }
 }
