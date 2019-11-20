@@ -37,7 +37,7 @@
 
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <tags>UnitTest,ApiTest</tags>
+        <tags>UnitTest,FrontTest,ApiTest</tags>
 
         <junit.jupiter.api>5.5.2</junit.jupiter.api>
 
